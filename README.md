@@ -1,1 +1,2 @@
 # EchoLocation
+This code uses the ultrasonic sensor to measure the distance between the sensor and an object in front of it. The trigPin is used to send a trigger signal to the sensor, and the echoPin is used to measure the duration of the echo. The pulseIn() function is used to measure the duration of the echo, and the distance is calculated using the speed of sound in air (0.034 cm/microsecond) and the time of flight of the echo. The distance is printed to the serial monitor, and the code waits for a short period before taking the next measurement.
